@@ -1,4 +1,5 @@
 * {
+    background-color: black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,4 +11,199 @@
     padding: 14px 200px;
     justify-content: center;
     align-items: center;
+}
+
+.nav {
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.mainImg {
+    width: 32px;
+    height: 36px;
+}
+
+.mainText {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.productivity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.home .inventory .support .guide {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.home {
+    color: #B968DE;
+}
+
+.profilePic {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #9100D3;
+}
+
+.textMainheader {
+    display: flex;
+    width: 400px;
+    align-items: center;
+}
+
+.accelerate {
+    display: flex;
+    color: #FFF;
+    justify-self: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+.ai-powered {
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.submit {
+    display: flex;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: #9100D3;
+    color: #ffffff;
+}
+
+.mainLogos{
+    display: flex;
+    height: 72px;
+    padding: 0px 72px 24px 72px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px;
+}
+
+.Logos {
+    width: 40px;
+    height: 48px;
+}
+
+.logoOne {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 8px;
+}
+
+.logoTwo {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 8px;
+}
+
+.logoThree {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 8px;
+}
+
+.logoFour {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 8px;
+}
+
+.logosText {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.mainCards {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.cards {
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    color: #FFF;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+}
+
+.cardsHeaders {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.cardsTexts {
+    color: #C0C0C0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+footer {
+    display: flex;
+    height: 64px;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 463px;
+    border-top: 1px solid #261C51;
+}
+
+.footerText {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
